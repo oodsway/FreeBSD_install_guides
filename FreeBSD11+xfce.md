@@ -165,7 +165,9 @@ In Section "Device", confirm or set Driver to:
 ```        Driver      "vmware"```
 
 resulting in:
-```Section "Device"```
+
+```
+Section "Device"
         ### Available Driver options are:-
         ### Values: <i>: integer, <f>: float, <bool>: "True"/"False",
         ### <string>: "String", <freq>: "<f> Hz/kHz/MHz",
@@ -177,14 +179,18 @@ resulting in:
         Identifier  "Card0"
         Driver      "vmware"
         BusID       "PCI:0:15:0"
-```EndSection```
+EndSection
+```
 
 save these changes and then reboot:
 
 ```# reboot```
 
-This should give the xfce login screen. After login
-select ```Use default config``` at the panel dialog.
+This should give the xfce login screen. After login select 
+
+```Use default config``` 
+
+at the panel dialog.
 
 **Enjoy your new VM of FreeBSD11+xfce4**
 
