@@ -214,7 +214,7 @@ This should give the Xfce4 login screen. After login select
 
 at the panel dialog.
 
-**Enjoy your new VMware VM of FreeBSD11+Xfce4**
+**Enjoy your new VMware VM of FreeBSD11+Xfce4!**
 
 
 #### To Install FreeBSD11 with Xfce4 on bare metal see this [FOSSKB guide](https://fosskb.in/2016/03/17/installing-xfce-4-on-freebsd-11/)
