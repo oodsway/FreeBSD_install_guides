@@ -66,15 +66,16 @@ Append this line and save:
 
 ```exec startxfce4```
 
-Copy .xinitrc to user home directory
+Copy .xinitrc to user home directory:
 
 ```# cp .xinitrc /home/username/```
 
-Install sudo package
+Install sudo package:
 
 ```# pkg install sudo```
 
-Edit sudoers file
+Edit sudoers file:
+
 ```# nano /usr/local/etc/sudoers```
 
 Below line for root ALL=(ALL) ALL, add the username to make a sudoer and save:
@@ -111,7 +112,7 @@ Configure Xorg
 
 ```# Xorg -configure```
 
-Confirm xorg.conf.new file in root ~
+Confirm xorg.conf.new file exists in /root
 
 ```# ls```
 
@@ -145,6 +146,7 @@ EndSection
 In Section "InputDevice", change:
 
 ```        Driver      "mouse"```
+
 to
 
 ```        Driver      "vmmouse"```
@@ -192,7 +194,7 @@ This should give the xfce login screen. After login select
 
 at the panel dialog.
 
-**Enjoy your new VM of FreeBSD11+xfce4**
+**Enjoy your new VMware VM of FreeBSD11+xfce4**
 
 
 
