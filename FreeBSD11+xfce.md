@@ -6,7 +6,13 @@ This is a summary of commands shown in **Linux Video Tutorials** YouTube video o
 
 ```
 Published on Sep 24, 2016
-This video shows how to install FreeBSD 11 with XFCE 4 Desktop Environment and review on VMware Workstation or VMware Player step by step. We'll install applications such as Nano text editor, GIMP image editor, Firefox web browser, VLC media player and gedit text editor on FreeBSD 11. We'll also install VMware Tools (Open VM Tools) on FreeBSD 11 for better performance and usability (Fit Guest Now, Drag-Drop File features and Mouse Integration). This tutorial also helps for installing FreeBSD 11 on physical computer or bare-metal server.
+This video shows how to install FreeBSD 11 with XFCE 4 Desktop Environment and review on 
+VMware Workstation or VMware Player step by step. We'll install applications such as Nano 
+text editor, GIMP image editor, Firefox web browser, VLC media player and gedit text editor 
+on FreeBSD 11. We'll also install VMware Tools (Open VM Tools) on FreeBSD 11 for better
+performance and usability (Fit Guest Now, Drag-Drop File features and Mouse Integration). 
+This tutorial also helps for installing FreeBSD 11 on physical computer or bare-metal 
+server.
 
 Steps:
 1- Download FreeBSD 11 ISO
