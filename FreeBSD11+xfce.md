@@ -31,7 +31,7 @@ All credit belongs to **Linux Video Tutorials**. All mistakes are mine; use this
 
 **After instaling FreeBSD11, reboot and login as root**
 
-Confirm network connectivity with ping:
+Confirm network connectivity (starts at video time [5:15](https://www.youtube.com/watch?v=j3isaoJsHDU&feature=youtu.be&t=315)):
 
 ```# ping -c 3 www.google.com```
 
