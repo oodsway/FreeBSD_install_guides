@@ -85,7 +85,7 @@ Copy .xinitrc to user home directory:
 
 ```# cp .xinitrc /home/username/```
 
-Change .xinitrc ownership to username (this was step omitted in this video was included in KDE video):
+Change .xinitrc ownership to username (this step was omitted in this video but was included in KDE video; I included it):
 
 ```# chown username:username /home/username/.xinitrc```
 
