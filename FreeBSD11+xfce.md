@@ -1,6 +1,6 @@
-### FreeBSD11+xfce4 Desktop Install Guide
+### FreeBSD11+Xfce4 Desktop Install Guide
 
-This is a summary of commands shown in **Linux Video Tutorials** YouTube video on how to install FreeBSD11 with xfce4 Desktop Enviroment in a VMware Virtual Machine. The guide begins after installtion of FreeBSD11 OS. The video link and reference information appear below.
+This is a summary of commands shown in [Linux Video Tutorials](https://www.youtube.com/user/CloudSystemsEngineer/) YouTube video on how to install FreeBSD11 with Xfce4 Desktop Enviroment in a VMware Virtual Machine. The guide begins after installtion of FreeBSD11 OS. The video link and reference information appear below.
 
 [FreeBSD11+XFCE Desktop+Apps+VMware Tools](https://youtu.be/j3isaoJsHDU)
 
@@ -26,16 +26,16 @@ Steps:
 7- FreeBSD 11 Xfce Review
 ```
 
-All credit belongs to **Linux Video Tutorials**. All mistakes are mine. Use this guide at your own risk.
+All credit belongs to **Linux Video Tutorials**. All mistakes are mine; use this guide at your own risk.
 
 
 **After instaling FreeBSD11, reboot and login as root**
 
-Test network connectivity with ping:
+Confirm network connectivity with ping:
 
 ```# ping -c 3 www.google.com```
 
-Update the system
+Update the system:
 
 ```# pkg update```
 
@@ -43,17 +43,19 @@ Update the system
 
 ```# pkg upgrade```
 
-Install bash and an editor (e.g. nano)
+Install bash and an editor (e.g. nano):
 
 ```# pkg install bash nano```
 
-Install xorg windowning system (large download)
+Install Xorg windowning system (large download):
 
 ```# pkg install xorg```
 
-Install xfce desktop (large download):
+Install Xfce desktop (large download):
 
 ```# pkg install xfce```
+
+_Note: I found bridged mode networking necessary vs NAT for my VM configuration to download desktop environment. YMMV._
 
 Install Slim (login manager):
 
@@ -71,7 +73,6 @@ hald_enable="YES"
 #Enable Slim Login Manager
 slim_enable="YES"
 ```
-
 Create .xinitrc
 
 ```# nano .xinitrc```
@@ -83,6 +84,10 @@ Append this line and save:
 Copy .xinitrc to user home directory:
 
 ```# cp .xinitrc /home/username/```
+
+Change .xinitrc ownership to username (this was step omitted in this video was included in KDE video):
+
+```# chown username:username /home/username/.xinitrc```
 
 Install sudo package:
 
@@ -203,16 +208,16 @@ save these changes and then reboot:
 
 ```# reboot```
 
-This should give the xfce login screen. After login select 
+This should give the Xfce4 login screen. After login select 
 
 ```Use default config``` 
 
 at the panel dialog.
 
-**Enjoy your new VMware VM of FreeBSD11+xfce4**
+**Enjoy your new VMware VM of FreeBSD11+Xfce4**
 
 
 
-### To Install FreeBSD11 with xfce on Bare Metal See
+#### To Install FreeBSD11 with Xfce4 on Bare Metal [See](https://fosskb.in/2016/03/17/installing-xfce-4-on-freebsd-11/):
 
 [FROM FREE AND OPEN SOURCE KNOWLEDGE BASE](https://fosskb.in/2016/03/17/installing-xfce-4-on-freebsd-11/)
