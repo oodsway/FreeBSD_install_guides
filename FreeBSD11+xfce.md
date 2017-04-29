@@ -178,6 +178,7 @@ EndSection
 ```
 
 In Section "Device", confirm or set Driver to:
+
 ```        Driver      "vmware"```
 
 resulting in:
