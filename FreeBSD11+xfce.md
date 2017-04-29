@@ -1,8 +1,10 @@
-### FREEBSD11+xfce4 Desktop Install Guide
+### FreeBSD11+xfce4 Desktop Install Guide
 
 This is a summary of commands shown in **Linux Video Tutorials** YouTube video on how to install FreeBSD11 with xfce4 Desktop Enviroment in a VMware Virtual Machine. The guide begins after installtion of FreeBSD11 OS. The video link and reference information appear below.
 
 [FreeBSD11+XFCE Desktop+Apps+VMware Tools](https://youtu.be/j3isaoJsHDU)
+
+**Video Information**
 
 ```
 Published on Sep 24, 2016
@@ -24,7 +26,7 @@ Steps:
 7- FreeBSD 11 Xfce Review
 ```
 
-All credit belongs to **Linux Video Tutorials**. All mistakes are mine. Use at your own risk.
+All credit belongs to **Linux Video Tutorials**. All mistakes are mine. Use this guide at your own risk.
 
 
 **After instaling FreeBSD11, reboot and login as root**
