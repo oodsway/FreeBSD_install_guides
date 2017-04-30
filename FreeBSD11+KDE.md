@@ -52,6 +52,8 @@ Install KDE desktop (very large download):
 
 ```# pkg install kde```
 
+_Note: I found bridged mode networking necessary vs NAT for my VM configuration to download desktop environment. YMMV._
+
 Install gtk-oxygen-engine:
 
 ```# pkg install gtk-oxygen-engine```
@@ -109,6 +111,7 @@ For use in VM install open-vm-tools:
 ```# pkg install open-vm-tools```
 
 Edit /etc/rc.conf
+
 ```# nano /etc/rc.conf ```
 
 Append these lines and save:
