@@ -8,10 +8,12 @@ This is a summary of commands shown in [Linux Video Tutorials](https://www.youtu
 
 ```
 Published on Sep 25, 2016
-This video tutorial shows how to install FreeBSD 11 with KDE 4 Desktop and review on VMware Workstation step by step. We'll also 
-install applications such as Nano, GIMP, Firefox and Gedit on FreeBSD 11. This tutorial also helps for installing FreeBSD 11 on 
-physical computer or server. We'll also install VMware Tools (Open VM Tools) on FreeBSD 11 for better performance and usability 
-(Fit Guest Now, Drag-Drop File and Mouse Integration).
+This video tutorial shows how to install FreeBSD 11 with KDE 4 Desktop and review on 
+VMware Workstation step by step. We'll also install applications such as Nano, GIMP, 
+Firefox and Gedit on FreeBSD 11. This tutorial also helps for installing FreeBSD 11 
+on physical computer or server. We'll also install VMware Tools (Open VM Tools) on 
+FreeBSD 11 for better performance and usability (Fit Guest Now, Drag-Drop File 
+and Mouse Integration).
 
 Steps:
 1- Download FreeBSD 11 ISO
